@@ -1,0 +1,9 @@
+.home {
+    @include background-image('/images/home-bg-img-lg.png');
+}
+
+.home-title {
+    position: absolute;
+    bottom: 15%;
+    left:15%;
+}

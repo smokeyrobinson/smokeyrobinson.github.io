@@ -1,0 +1,31 @@
+.header-wrapper {
+    @include outer-container(100%);
+
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: $header-height;
+    background: $white-color-low-opacity;
+    z-index: $z-index-header;
+}
+
+.nav {
+    @include span-columns(9);
+
+    text-align: right;
+
+}
+
+.header--contact-links {
+    @include span-columns(3);
+
+}
+
+.nav li {
+    display: inline-block;
+    padding: 15px 5%;
+}
+
+.nav a {
+    color: black;
+}

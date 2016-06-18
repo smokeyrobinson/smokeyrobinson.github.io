@@ -6,10 +6,16 @@
 
 
 // Our variables
+$z-index-header: 100;
+//
 $base-font-family: Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
+$small-line-height: 1;
+$large-font-size: 1.5em;
+$header-height: $large-font-size + 2em;
+$title-font-size: 4em;
 
 $spacing-unit:     30px;
 
@@ -20,6 +26,8 @@ $brand-color:      #2a7ae2;
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
+$white-color-low-opacity: rgba(255, 255, 255, 0.4);
+$white: white;
 
 // Width of the content area
 $content-width:    800px;
@@ -46,7 +54,13 @@ $on-laptop:        800px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
+        "bourbon/bourbon",
+        "neat/neat",
+        "fonts",
+        "mixins",
         "base",
         "layout",
-        "syntax-highlighting"
+        "syntax-highlighting",
+        "home",
+        "header"
 ;
