@@ -1,4 +1,16 @@
 <div id="contact" class="contact section">
-    <div class="contact--title-wrapper"></div>
-    <div class="contact--main-wrapper"></div>
+    <div class="title contact--title">
+        <div class="title--main">Contact Smokey</div>
+    </div>
+    <div class="contact--main-wrapper">
+        <div class="contact--information">
+            <p>Smokey Robinson's is located in Lakewood, CA.</p>
+            <p>Reach out to us at: {{ contact.mail.text }}</p>
+        </div>
+        <div class="contact--social-media">
+            <p>Follow us on Facebook</p>
+            <a href="#"><img src="{{ site.contact.facebook.white }}" alt="facebook link" /></a>
+        </div>
+        <div class="contact--copyright">@2016 Smokey Robinson's BBQ. All Rights Reserved.</div>
+    </div>
 </div>

@@ -11,8 +11,10 @@ sections:
 contact:
     facebook:
         black: /images/fb-black.png
+        white: /images/fb-white.png
     mail:
         black: /images/mail-black.png
+        text: derobins12r@gmail.com
 
 carouselImages:
     - name: birds
@@ -23,7 +25,7 @@ carouselImages:
     - name: ribs
     - name: ribstack
     - name: stack
-    - name: tri-tip 
+    - name: tri-tip
 
 
 # Build settings

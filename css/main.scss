@@ -6,38 +6,41 @@
 
 
 // Our variables
-$z-index-header: 100;
-$z-index-title: 50;
+$z-index-header:    100;
+$z-index-title:     50;
 //
-$base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+$base-font-family:  Helvetica, Arial, sans-serif;
+$base-font-size:    16px;
+$small-font-size:   $base-font-size * 0.875;
+$base-line-height:  1.5;
 $small-line-height: 1;
-$large-font-size: 1.5em;
-$header-height: $large-font-size + 2em;
-$title-font-size: 4em;
+$large-font-size:   1.5em;
+$header-height:     $large-font-size + 2em;
+$title-font-size:   4em;
 
-$spacing-unit:     30px;
+$spacing-unit:      30px;
 
-$text-color:       white;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$text-color:        white;
+$background-color:  #fdfdfd;
+$brand-color:       #2a7ae2;
 
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+$grey-color:        #828282;
+$grey-color-light:  lighten($grey-color, 40%);
+$grey-color-dark:   darken($grey-color, 25%);
 $white-color-low-opacity: rgba(255, 255, 255, 0.4);
 $white: white;
-$maroon-color:     #301205;
-$arrow-color:      black;
+$maroon-color:       #301205;
+$maroon-color-light: #411B0A;
+$maroon-color-dark:  #2E150B;
+$maroon-color-middle: #36180A;
+$arrow-color:        black;
 
 // Width of the content area
-$content-width:    800px;
+$content-width:      800px;
 
-$on-palm:          600px;
-$on-laptop:        800px;
-$on-small-desktop: 1020px;
+$large-mobile:            600px;
+$tablet:          800px;
+$small-desktop:   1020px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
@@ -53,6 +56,4 @@ $on-small-desktop: 1020px;
         "about",
         "food",
         "menu",
-        "contact",
-        "contact"
-;
+        "contact";

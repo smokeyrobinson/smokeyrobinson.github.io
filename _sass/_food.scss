@@ -3,8 +3,8 @@
 }
 
 .food--carousel-wrapper {
+    @include maroon-gradient-background();
     height: 60%;
-    background: $maroon-color;
     padding-top: 20px;
 }
 

@@ -8,7 +8,7 @@
 }
 
 .menu--main-wrapper {
-    background: $maroon-color;
+    @include maroon-gradient-background();
     height: 60%;
     position: absolute;
     bottom: 0;

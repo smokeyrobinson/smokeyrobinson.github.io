@@ -30,7 +30,6 @@
 
 .about--main-wrapper {
     @include row();
-
-    background: $maroon-color;
+    @include maroon-gradient-background();
 
 }

@@ -1,3 +1,39 @@
 .contact {
     @include background-image('/images/contact-bg-img-lg.png');
 }
+
+.contact--title {
+    text-align: center;
+    padding-top: 380px;
+}
+
+.contact--main-wrapper {
+    @include maroon-gradient-background();
+
+    position: absolute;
+    height: 40%;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-top: 40px;
+
+    p {
+        margin-bottom: 0;
+    }
+}
+
+.contact--information {
+    border-bottom: 3px dotted white;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.contact--social-media {
+    padding-top: 20px;
+}
+
+.contact--copyright {
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+}
