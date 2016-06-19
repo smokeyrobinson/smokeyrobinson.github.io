@@ -18,9 +18,9 @@
 
 .about--text {
     @include span-columns(7);
+    @include omega();
     @include pad(0 default);
 
-    padding-left: 0;
     margin-top: 50px;
 }
 
