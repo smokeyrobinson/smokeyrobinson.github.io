@@ -14,5 +14,17 @@ contact:
     mail:
         black: /images/mail-black.png
 
+carouselImages:
+    - name: birds
+    - name: easter-ham
+    - name: ham
+    - name: poppers
+    - name: prime-rib
+    - name: ribs
+    - name: ribstack
+    - name: stack
+    - name: tri-tip 
+
+
 # Build settings
 markdown: kramdown

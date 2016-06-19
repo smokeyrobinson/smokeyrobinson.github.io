@@ -1,3 +1,15 @@
-<div id="food" class="food">
-
+<div id="food" class="food section">
+    <div class="title food--title">
+        <div>The</div>
+        <div class="title--main">Food</div>
+    </div>
+    <div class="food--carousel-wrapper">
+        <div class="food--carousel">
+            {% for image in site.carouselImages %}
+                <div class="food--carousel-image">
+                    <img src="/images/carousel/{{image.name}}.png" alt="{{name}}" />
+                </div>
+            {% endfor %}
+        </div>
+    </div>
 </div>

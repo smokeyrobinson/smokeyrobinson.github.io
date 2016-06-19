@@ -1,3 +1,38 @@
 .food {
     @include background-image('/images/food-bg-img-lg.png');
 }
+
+.food--carousel-wrapper {
+    height: 60%;
+    background: $maroon-color;
+    padding-top: 20px;
+}
+
+.food--carousel {
+    @include dotted-border;
+    @include row();
+
+    padding: 20px;
+    margin: 20px;
+    height: 85%;
+}
+
+.food--title {
+    padding-top: 100px;
+    margin-left: 15%;
+}
+
+.food--carousel-image {
+    @include span-columns(3 of 12);
+}
+
+.food--arrow {
+    @include span-columns(1 of 12);
+
+    margin-top: 5%;
+    color: $arrow-color;
+}
+
+.slick-list {
+    @include span-columns(10 of 12);
+}
