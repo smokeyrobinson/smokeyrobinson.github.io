@@ -13,6 +13,23 @@
     border-bottom: dotted 5px white;
 }
 
+@mixin rotate {
+    /* Safari */
+    -webkit-transform: rotate(-90deg);
+
+    /* Firefox */
+    -moz-transform: rotate(-90deg);
+
+    /* IE */
+    -ms-transform: rotate(-90deg);
+
+    /* Opera */
+    -o-transform: rotate(-90deg);
+
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
 // Using media queries with like this:
 // @include media-query($on-palm) {
 //     .wrapper {

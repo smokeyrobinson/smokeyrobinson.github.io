@@ -1,3 +1,69 @@
 .menu {
     @include background-image('/images/menu-bg-img-lg.png');
 }
+
+.menu--title {
+    padding-top: 100px;
+    margin-left: 15%;
+}
+
+.menu--main-wrapper {
+    background: $maroon-color;
+    height: 60%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.menu--main-overlay {
+    height: 40%;
+    background: $maroon-color;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.menu--white-stripe {
+    width: 100%;
+    background: $white;
+    height: 70%;
+}
+
+.menu--text-wrapper {
+    width: 80%;
+    background: #ccc;
+    position: absolute;
+    top: -20px;
+    left: 10%;
+    height: 90%;
+    padding: 20px;
+
+    table { border-collapse: collapse; }
+}
+
+.menu--meat-items {
+    @include span-columns(6 of 12);
+
+    border-right: solid 2px maroon;
+
+    padding: 10px;
+}
+
+.menu--information {
+    @include span-columns(6 of 12);
+}
+
+.menu--meat-items tr {
+    border-top: 2px dotted maroon;
+    border-bottom: 2px dotted maroon;
+}
+
+.menu--birds-title,
+.menu--cows-title,
+.menu--pigs-title {
+    @include rotate();
+
+    text-transform: uppercase;
+    color: maroon;
+    text-decoration: overline underline;
+}
