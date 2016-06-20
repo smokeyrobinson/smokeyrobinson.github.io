@@ -4,18 +4,16 @@
 
 .contact--title {
     text-align: center;
-    padding-top: 380px;
+    padding-top: 25%;
 }
 
 .contact--main-wrapper {
     @include maroon-gradient-background();
-
-    position: absolute;
-    height: 40%;
-    bottom: 0;
-    width: 100%;
+    position: relative;
+    min-height: 40%;
     text-align: center;
     padding-top: 40px;
+    padding-bottom: 30px;
 
     p {
         margin-bottom: 0;

@@ -33,6 +33,10 @@
     color: $arrow-color;
 }
 
+.food--arrow-left {
+    @include flip();
+}
+
 .slick-list {
     @include span-columns(10 of 12);
 }
